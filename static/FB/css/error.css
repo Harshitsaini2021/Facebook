@@ -1,0 +1,23 @@
+body{
+		margin: 0;
+}
+.btn{
+ background: #1878f2;
+ width: 45%;
+			padding: 4px;
+			outline: none;
+			border: none;
+			cursor: pointer;
+			border-radius: 4px;
+			margin-left: 50px;
+}
+.btn a{
+		text-decoration: none;
+    color: white;
+    font-weight: bold;
+    style: none;
+}
+.img{
+		padding-left: 430px;
+			height: 420px;
+}

